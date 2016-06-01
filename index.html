@@ -1,363 +1,333 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Maquetación con Bootstrap</title>
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- ion-icons -->
-	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-	<!-- our-own-styles -->
-	<link rel="stylesheet" href="css/styles.css">
-	<!-- Soporte para IE 9 e inf. -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-<body>
-
-	<div class="navbar navbar-default navbar-fixed-top">
-		<div class="container">
-			<!-- nav-header -->
-			<div class="navbar-header">
-				<a href="#" class="navbar-brand">Start Bootstrap</a>
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-links">
-					<i class="ion-navicon-round"></i>
-				</button>
-			</div>
-
-			<!-- listado-nav -->
-			<nav class="collapse navbar-collapse" id="nav-links">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#services">Services</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#team">Team</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
-	</div>
-
-	<!-- banner -->
-	<section id="banner">
-		<div class="container">
-			<div class="intro-text text-center">
-				<h2>Welcome To Our Studio!</h2>
-				<h1>It's Nice To Meet You</h1>
-				<a href="#services" class="btn btn-lg">Tell me more</a>
-			</div>
-		</div>
-	</section>
-
-	<!-- section services -->
-
-	<section class="container" id="services">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
-				<h2>services</h2>
-				<p>Lorem ipsum dolor amet consectetur.</p>
-			</div>
-
-			<article class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="circulo"><i class="ion-ios-cart"></i></div>
-				<h3>e-commerce</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat enim eos, soluta delectus consequuntur id optio velit, et magnam blanditiis illum!</p>
-			</article>
-			<article class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="circulo"><i class="ion-iphone"></i></div>
-				<h3>responsive desing</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat enim eos, soluta delectus consequuntur id optio velit, et magnam blanditiis illum!</p>
-			</article>
-			<article class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4">
-				<div class="circulo"><i class="ion-ios-filing"></i></div>
-				<h3>web security</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat enim eos, soluta delectus consequuntur id optio velit, et magnam blanditiis illum!</p>
-			</article>
-		</div>
-	</section>
-
-	<!-- section portfolio -->
-	<div class="container-fluid" id="portfolio">
-		<section class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
-					<h2>portfolio</h2>
-					<p>Lorem ipsum dolor amet consectetur.</p>
-				</div>
-                
-                <!-- card 1 -->
-				<article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
-					<div class="thumbnail card">
-					<img src="images/portfolio/img-portfolio_01.png" alt="Icons">
-					<h4>round icons</h4>
-					<h5><i>graphic design</i></h5>
-					</div>
-				</article>
-
-				<!-- card 2 -->
-				<article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
-					<div class="thumbnail card">
-					<img src="images/portfolio/img-portfolio_02.png" alt="Icons">
-					<h4>startup framework</h4>
-					<h5><i>website design</i></h5>
-					</div>
-				</article>
-
-				<!-- card 3 -->
-				<article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
-					<div class="thumbnail card">
-					<img src="images/portfolio/img-portfolio_03.png" alt="Icons">
-					<h4>treehouse</h4>
-					<h5><i>website design</i></h5>
-					</div>
-				</article>
-
-				 <!-- card 4 -->
-				<article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
-					<div class="thumbnail card">
-					<img src="images/portfolio/img-portfolio_04.png" alt="Icons">
-					<h4>golden</h4>
-					<h5><i>graphic design</i></h5>
-					</div>
-				</article>
-
-				<!-- card 5 -->
-				<article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
-					<div class="thumbnail card">
-					<img src="images/portfolio/img-portfolio_05.png" alt="Icons">
-					<h4>escape</h4>
-					<h5><i>website design</i></h5>
-					</div>
-				</article>
-
-				<!-- card 6 -->
-				<article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
-					<div class="thumbnail card">
-					<img src="images/portfolio/img-portfolio_06.png" alt="Icons">
-					<h4>dreams</h4>
-					<h5><i>website design</i></h5>
-					</div>
-				</article>
-			</div>
-		</section>
-	</div>
-
-	<!-- section about hidden en xs-->
-	<section class="container hidden-xs" id="about">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
-				<h2>about</h2>
-				<p>Lorem ipsum dolor amet consectetur.</p>
-			</div>
-			<!--primer bloque -->
-			<article class="col-sm-5 col-md-5 col-lg-5 text-right parrafo">
-				<h2>2009-2011</h2>
-				<h3>our humble beginnings</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
-			</article>
-			<article class="col-sm-2 col-md-2 col-lg-2">
-				<img src="images/about/about_01.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
-			</article>
-			<div class="col-sm-5 col-md-5 col-lg-5">	</div>
-
-			<!--linea vertical -->
-			<div class="col-sm-12 col-md-12 col-lg-12 box-linea"><div class="linea"></div></div>
-
-			<!-- segundo bloque -->
-			<div class="col-sm-5 col-md-5 col-lg-5">	</div>
-			<article class="col-sm-2 col-md-2 col-lg2">
-				<img src="images/about/about_02.jpg" class="img-responsive img-circle img-box img-box-dos" alt="Responsive image">
-			</article>
-			<article class="col-sm-5 col-md-5 col-lg-5 text-left parrafo parrafo-dos">
-				<h2>2009-2011</h2>
-				<h3>our humble beginnings</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
-			</article>
-			
-			<!--linea vertical -->
-			<div class="col-sm-12 col-md-12 col-lg-12 box-linea"><div class="linea linea-dos"></div></div>
-
-			<!--tercer bloque -->
-			<article class="col-sm-5 col-md-5 col-lg-5 text-right parrafo parrafo-dos">
-				<h2>2009-2011</h2>
-				<h3>our humble beginnings</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
-			</article>
-			<article class="col-sm-2 col-md-2 col-lg-2">
-				<img src="images/about/about_03.jpg" class="img-responsive img-circle img-box img-box-dos" alt="Responsive image">
-			</article>
-			<div class="col-sm-5 col-md-5 col-lg-5">	</div>
-
-			<!--linea vertical -->
-			<div class="col-sm-12 col-md-12 col-lg-12 box-linea"><div class="linea linea-dos"></div></div>
-
-			<!-- cuarto bloque -->
-			<div class="col-sm-5 col-md-5 col-lg-5">	</div>
-			<article class="col-sm-2 col-md-2 col-lg-2">
-				<img src="images/about/about_04.jpg" class="img-responsive img-circle img-box img-box-dos" alt="Responsive image">
-			</article>
-			<article class="col-sm-5 col-md-5 col-lg-5 text-left parrafo parrafo-dos">
-				<h2>2009-2011</h2>
-				<h3>our humble beginnings</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
-			</article>
-
-			<!--linea vertical -->
-			<div class="col-sm-12 col-md-12 col-lg-12 box-linea"><div class="linea linea-dos"></div></div>
-			
-			<!-- ultimo bloque -->
-			<div class="col-sm-5 col-md-5 col-lg-5"></div>
-			<article class="col-sm-2 col-md-2 col-lg-2">
-				<div class="img-box-last"></div>
-			</article>
-			<div class="col sm-5 col-md-5 col-lg-5"></div>
-
-		</div>
-	</section>
-
-	<!-- section about visible en xs-->
-	<section class="container visible-xs">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
-				<h2>about</h2>
-				<p>Lorem ipsum dolor amet consectetur.</p>
-			</div>
-			<article class="col-xs-3">
-				<img src="images/about/about_01.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
-			</article>
-			<article class="col-xs-9 text-left parrafo">
-				<h2>2009-2011</h2>
-				<h3>our humble beginnings</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
-			</article>
-			
-
-			<!--segundo bloque -->
-			<article class="col-xs-3">
-				<img src="images/about/about_02.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
-			</article>
-			<article class="col-xs-9 text-left parrafo">
-				<h2>2009-2011</h2>
-				<h3>our humble beginnings</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
-			</article>
-
-			<!--tercer bloque -->
-			<article class="col-xs-3">
-				<img src="images/about/about_03.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
-			</article>
-			<article class="col-xs-9 text-left parrafo">
-				<h2>2009-2011</h2>
-				<h3>our humble beginnings</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
-			</article>
-
-			<!--cuarto bloque -->
-			<article class="col-xs-3">
-				<img src="images/about/about_04.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
-			</article>
-			<article class="col-xs-9 text-left parrafo">
-				<h2>2009-2011</h2>
-				<h3>our humble beginnings</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
-			</article>
-		</div>
-	</section>
-
-	<!-- section team -->
-	<div class="container-fluid" id="team">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
-					<h2>our amazing team</h2>
-					<p>Lorem ipsum dolor amet consectetur.</p>
-				</div>
-				
-				<!--primer team -->
-				<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center team">
-					<img src="images/team/team_01.jpg" alt="" class="img-responsive img-circle">
-					<h3>kay garland</h3>
-					<p>lead designer</p>
-					<ul class="social">
-						<li><span class="ion-social-twitter"></span></li>
-						<li><span class="ion-social-facebook"></span></li>
-						<li><span class="ion-social-linkedin"></span></li>
-					</ul>
-				</article>
-
-				<!--segundo team -->
-				<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center team">
-					<img src="images/team/team_02.jpg" alt="" class="img-responsive img-circle">
-					<h3>larry parker</h3>
-					<p>lead marketer</p>
-					<ul class="social">
-						<li><span class="ion-social-twitter"></span></li>
-						<li><span class="ion-social-facebook"></span></li>
-						<li><span class="ion-social-linkedin"></span></li>
-					</ul>
-				</article>
-
-				<!--tercer team -->
-				<article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center team">
-					<img src="images/team/team_03.jpg" alt="" class="img-responsive img-circle">
-					<h3>diana pertersen</h3>
-					<p>lead developer</p>
-					<ul class="social">
-						<li><span class="ion-social-twitter"></span></li>
-						<li><span class="ion-social-facebook"></span></li>
-						<li><span class="ion-social-linkedin"></span></li>
-					</ul>
-				</article>
-
-				<!-- p de team -->
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
-				<article class="col-xs-10 col-sm-10 col-md-10 col-lg-10 text-center"><p class="p-team">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste unde quos rerum ipsam officia architecto, dolor distinctio asperiores deleniti, voluptate eum. Sit dolorem saepe vitae.</p></article>
-				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
-			</div>
-		</div>
-	</div>
-	
-
-	<!-- footer -->
-	<div id="contact">
-		<footer class="container-fluid image-responsive" id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title title-footer ">
-					<h2>about</h2>
-					<p>Lorem ipsum dolor amet consectetur.</p>
-					</div>
-
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-form">
-						<form class="form-horizontal">
-							<div class="col-sm-12 col-sm-12 col-md-6 col-lg-6">
-      							<input type="name" class="form-control contact-input" id="inputName" placeholder="your name *">
-
-      							<input type="email" class="form-control contact-input" id="inputEmail" placeholder="your email *">
-
-      							<input type="phone" class="form-control contact-input" id="inputPhone" placeholder="your phone *">
-   							 </div>
-
-   							 <div class="col-sm-12 col-sm-12 col-md-6 col-lg-6">
-								<textarea class="form-control contact-tarea" rows="3" placeholder="you message *"></textarea>
-   							 </div>
-						</form>
-					</div>
-					
-				</div>
-			</div>
-		</footer>
-	</div>
-	<!-- librería-jQuery -->
-	<script src="js/jquery-1.12.3.min.js"></script>
-	<!-- js-de-bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Animate-Scroll -->
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-	<!-- Custom-Scripts -->
-	<script src="js/my-scripts.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maquetación con Bootstrap</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- ion-icons -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- our-own-styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Soporte para IE 9 e inf. -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- nav-header -->
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Start Bootstrap</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-links">
+          <i class="ion-navicon-round"></i>
+          </button>
+        </div>
+        <!-- listado-nav -->
+        <nav class="collapse navbar-collapse" id="nav-links">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- banner -->
+    <section id="banner">
+      <div class="container">
+        <div class="intro-text text-center">
+          <h2>Welcome To Our Studio!</h2>
+          <h1>It's Nice To Meet You</h1>
+          <a href="#services" class="btn btn-lg">Tell me more</a>
+        </div>
+      </div>
+    </section>
+    <!-- section services -->
+    <section class="container" id="services">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
+          <h2>services</h2>
+          <p>Lorem ipsum dolor amet consectetur.</p>
+        </div>
+        <article class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="circulo"><i class="ion-ios-cart"></i></div>
+          <h3>e-commerce</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat enim eos, soluta delectus consequuntur id optio velit, et magnam blanditiis illum!</p>
+        </article>
+        <article class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="circulo"><i class="ion-iphone"></i></div>
+          <h3>responsive desing</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat enim eos, soluta delectus consequuntur id optio velit, et magnam blanditiis illum!</p>
+        </article>
+        <article class="text-center col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="circulo"><i class="ion-ios-filing"></i></div>
+          <h3>web security</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat enim eos, soluta delectus consequuntur id optio velit, et magnam blanditiis illum!</p>
+        </article>
+      </div>
+    </section>
+    <!-- section portfolio -->
+    <div class="container-fluid" id="portfolio">
+      <section class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
+            <h2>portfolio</h2>
+            <p>Lorem ipsum dolor amet consectetur.</p>
+          </div>
+          <!-- card 1 -->
+          <article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
+            <div class="thumbnail card">
+              <img src="images/portfolio/img-portfolio_01.png" alt="Icons">
+              <h4>round icons</h4>
+              <h5><i>graphic design</i></h5>
+            </div>
+          </article>
+          <!-- card 2 -->
+          <article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
+            <div class="thumbnail card">
+              <img src="images/portfolio/img-portfolio_02.png" alt="Icons">
+              <h4>startup framework</h4>
+              <h5><i>website design</i></h5>
+            </div>
+          </article>
+          <!-- card 3 -->
+          <article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
+            <div class="thumbnail card">
+              <img src="images/portfolio/img-portfolio_03.png" alt="Icons">
+              <h4>treehouse</h4>
+              <h5><i>website design</i></h5>
+            </div>
+          </article>
+          <!-- card 4 -->
+          <article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
+            <div class="thumbnail card">
+              <img src="images/portfolio/img-portfolio_04.png" alt="Icons">
+              <h4>golden</h4>
+              <h5><i>graphic design</i></h5>
+            </div>
+          </article>
+          <!-- card 5 -->
+          <article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
+            <div class="thumbnail card">
+              <img src="images/portfolio/img-portfolio_05.png" alt="Icons">
+              <h4>escape</h4>
+              <h5><i>website design</i></h5>
+            </div>
+          </article>
+          <!-- card 6 -->
+          <article class="col-xs-12 col-sm-6 col-md-4 text-center text-capitalize">
+            <div class="thumbnail card">
+              <img src="images/portfolio/img-portfolio_06.png" alt="Icons">
+              <h4>dreams</h4>
+              <h5><i>website design</i></h5>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+    <!-- section about hidden en xs-->
+    <section class="container hidden-xs" id="about">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
+          <h2>about</h2>
+          <p>Lorem ipsum dolor amet consectetur.</p>
+        </div>
+        <!--primer bloque -->
+        <article class="col-sm-5 col-md-5 col-lg-5 text-right parrafo">
+          <h2>2009-2011</h2>
+          <h3>our humble beginnings</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
+        </article>
+        <article class="col-sm-2 col-md-2 col-lg-2">
+          <img src="images/about/about_01.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
+        </article>
+        <div class="col-sm-5 col-md-5 col-lg-5">	</div>
+        <!--linea vertical -->
+        <div class="col-sm-12 col-md-12 col-lg-12 box-linea">
+          <div class="linea"></div>
+        </div>
+        <!-- segundo bloque -->
+        <div class="col-sm-5 col-md-5 col-lg-5">	</div>
+        <article class="col-sm-2 col-md-2 col-lg2">
+          <img src="images/about/about_02.jpg" class="img-responsive img-circle img-box img-box-dos" alt="Responsive image">
+        </article>
+        <article class="col-sm-5 col-md-5 col-lg-5 text-left parrafo parrafo-dos">
+          <h2>2009-2011</h2>
+          <h3>our humble beginnings</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
+        </article>
+        <!--linea vertical -->
+        <div class="col-sm-12 col-md-12 col-lg-12 box-linea">
+          <div class="linea linea-dos"></div>
+        </div>
+        <!--tercer bloque -->
+        <article class="col-sm-5 col-md-5 col-lg-5 text-right parrafo parrafo-dos">
+          <h2>2009-2011</h2>
+          <h3>our humble beginnings</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
+        </article>
+        <article class="col-sm-2 col-md-2 col-lg-2">
+          <img src="images/about/about_03.jpg" class="img-responsive img-circle img-box img-box-dos" alt="Responsive image">
+        </article>
+        <div class="col-sm-5 col-md-5 col-lg-5">	</div>
+        <!--linea vertical -->
+        <div class="col-sm-12 col-md-12 col-lg-12 box-linea">
+          <div class="linea linea-dos"></div>
+        </div>
+        <!-- cuarto bloque -->
+        <div class="col-sm-5 col-md-5 col-lg-5">	</div>
+        <article class="col-sm-2 col-md-2 col-lg-2">
+          <img src="images/about/about_04.jpg" class="img-responsive img-circle img-box img-box-dos" alt="Responsive image">
+        </article>
+        <article class="col-sm-5 col-md-5 col-lg-5 text-left parrafo parrafo-dos">
+          <h2>2009-2011</h2>
+          <h3>our humble beginnings</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
+        </article>
+        <!--linea vertical -->
+        <div class="col-sm-12 col-md-12 col-lg-12 box-linea">
+          <div class="linea linea-dos"></div>
+        </div>
+        <!-- ultimo bloque -->
+        <div class="col-sm-5 col-md-5 col-lg-5"></div>
+        <article class="col-sm-2 col-md-2 col-lg-2">
+          <div class="img-box-last"></div>
+        </article>
+        <div class="col sm-5 col-md-5 col-lg-5"></div>
+      </div>
+    </section>
+    <!-- section about visible en xs-->
+    <section class="container visible-xs">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
+          <h2>about</h2>
+          <p>Lorem ipsum dolor amet consectetur.</p>
+        </div>
+        <article class="col-xs-3">
+          <img src="images/about/about_01.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
+        </article>
+        <article class="col-xs-9 text-left parrafo">
+          <h2>2009-2011</h2>
+          <h3>our humble beginnings</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
+        </article>
+        <!--segundo bloque -->
+        <article class="col-xs-3">
+          <img src="images/about/about_02.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
+        </article>
+        <article class="col-xs-9 text-left parrafo">
+          <h2>2009-2011</h2>
+          <h3>our humble beginnings</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
+        </article>
+        <!--tercer bloque -->
+        <article class="col-xs-3">
+          <img src="images/about/about_03.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
+        </article>
+        <article class="col-xs-9 text-left parrafo">
+          <h2>2009-2011</h2>
+          <h3>our humble beginnings</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
+        </article>
+        <!--cuarto bloque -->
+        <article class="col-xs-3">
+          <img src="images/about/about_04.jpg" class="img-responsive img-circle img-box" alt="Responsive image">
+        </article>
+        <article class="col-xs-9 text-left parrafo">
+          <h2>2009-2011</h2>
+          <h3>our humble beginnings</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab sunt cupiditate obcaecati fuga autem rerum. Obcaecati doloribus iste quidem aut, provident a! Ipsa illo, illum in facilis commodi officia.</p>
+        </article>
+      </div>
+    </section>
+    <!-- section team -->
+    <div class="container-fluid" id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title ">
+            <h2>our amazing team</h2>
+            <p>Lorem ipsum dolor amet consectetur.</p>
+          </div>
+          <!--primer team -->
+          <article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center team">
+            <img src="images/team/team_01.jpg" alt="" class="img-responsive img-circle">
+            <h3>kay garland</h3>
+            <p>lead designer</p>
+            <ul class="social">
+              <li><span class="ion-social-twitter"></span></li>
+              <li><span class="ion-social-facebook"></span></li>
+              <li><span class="ion-social-linkedin"></span></li>
+            </ul>
+          </article>
+          <!--segundo team -->
+          <article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center team">
+            <img src="images/team/team_02.jpg" alt="" class="img-responsive img-circle">
+            <h3>larry parker</h3>
+            <p>lead marketer</p>
+            <ul class="social">
+              <li><span class="ion-social-twitter"></span></li>
+              <li><span class="ion-social-facebook"></span></li>
+              <li><span class="ion-social-linkedin"></span></li>
+            </ul>
+          </article>
+          <!--tercer team -->
+          <article class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center team">
+            <img src="images/team/team_03.jpg" alt="" class="img-responsive img-circle">
+            <h3>diana pertersen</h3>
+            <p>lead developer</p>
+            <ul class="social">
+              <li><span class="ion-social-twitter"></span></li>
+              <li><span class="ion-social-facebook"></span></li>
+              <li><span class="ion-social-linkedin"></span></li>
+            </ul>
+          </article>
+          <!-- p de team -->
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
+          <article class="col-xs-10 col-sm-10 col-md-10 col-lg-10 text-center">
+            <p class="p-team">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste unde quos rerum ipsam officia architecto, dolor distinctio asperiores deleniti, voluptate eum. Sit dolorem saepe vitae.</p>
+          </article>
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-3"></div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div id="contact">
+      <footer class="container-fluid image-responsive" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title title-footer ">
+              <h2>about</h2>
+              <p>Lorem ipsum dolor amet consectetur.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-form">
+              <form class="form-horizontal">
+                <div class="col-sm-12 col-sm-12 col-md-6 col-lg-6">
+                  <input type="name" class="form-control contact-input" id="inputName" placeholder="your name *">
+                  <input type="email" class="form-control contact-input" id="inputEmail" placeholder="your email *">
+                  <input type="phone" class="form-control contact-input" id="inputPhone" placeholder="your phone *">
+                </div>
+                <div class="col-sm-12 col-sm-12 col-md-6 col-lg-6">
+                  <textarea class="form-control contact-tarea" rows="3" placeholder="you message *"></textarea>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- librería-jQuery -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <!-- js-de-bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Animate-Scroll -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- Custom-Scripts -->
+    <script src="js/my-scripts.js"></script>
+  </body>
 </html>
