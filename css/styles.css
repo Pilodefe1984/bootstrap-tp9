@@ -213,7 +213,8 @@ ol {
   border-radius: 50%;
   background-color: #2f2e2e;
   color: #f7f7f7;
-  margin: 0 5px; }
+  margin: 0 5px;
+  text-align: center; }
   .social li span {
     font-size: 22px;
     position: relative;
@@ -251,5 +252,23 @@ ol {
         color: gray;
         text-transform: capitalize;
         font-size: 12px; }
+
+.post-footer {
+  padding: 30px 0 5px 0;
+  text-align: center;
+  text-transform: capitalize; }
+  @media (max-width: 991px) {
+    .post-footer {
+      padding: 30px 0 60px 0; } }
+  .post-footer p {
+    font: 700 12px "Montserrat";
+    margin-top: 14px; }
+  .post-footer a {
+    font-size: 12px;
+    color: #fed136;
+    margin: 5px;
+    text-decoration: underline;
+    position: relative;
+    top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
