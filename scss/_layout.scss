@@ -8,8 +8,11 @@
 /*=========     HEADER     =========*/
 /***********************************/
 .navbar-default{
-   background-color: #222;
+   background-color: transparent;
    border: none;
+   @media (max-width: 767px) {
+    background-color: #222;
+   }
 
    .navbar-toggle{
       border: none;

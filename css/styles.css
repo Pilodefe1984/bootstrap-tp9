@@ -34,8 +34,11 @@ ol {
 /*=========     HEADER     =========*/
 /***********************************/
 .navbar-default {
-  background-color: #222;
+  background-color: transparent;
   border: none; }
+  @media (max-width: 767px) {
+    .navbar-default {
+      background-color: #222; } }
   .navbar-default .navbar-toggle {
     border: none;
     background-color: #fed136;
